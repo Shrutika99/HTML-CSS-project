@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <section class="Sub-Header">
+        <nav>
+            <a href="./index.html"><img src="./images/LOGO.jpg"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa-fa-window-close" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blogs.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+
+    </section>
+    <!-----our courses-->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, quos?</p>
+        <div class="row">
+            <div class="courses-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perferendis, quam accusantium in
+                    vitae provident saepe, aliquam alias deleniti aspernatur, iure harum. Eligendi aliquid error tempore
+                    id veritatis, quae vero!</p>
+            </div>
+            <div class="courses-col">
+                <h3>Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perferendis, quam accusantium in
+                    vitae provident saepe, aliquam alias deleniti aspernatur, iure harum. Eligendi aliquid error tempore
+                    id veritatis, quae vero!</p>
+            </div>
+            <div class="courses-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perferendis, quam accusantium in
+                    vitae provident saepe, aliquam alias deleniti aspernatur, iure harum. Eligendi aliquid error tempore
+                    id veritatis, quae vero!</p>
+            </div>
+        </div>
+
+    </section>
+     <!-------Facility----->
+     <section class="facility">
+        <h1> Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="row">
+            <div class="facility-col">
+                <img src="./images/other.jpg" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quae soluta sequi culpa
+                    repudiandae quam esse delectus itaque earum. Sit!</p>
+            </div>
+            <div class="facility-col">
+                <img src="./images/facility1.jpg" alt="">
+                <h3>World Class Seminar Hall</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quae soluta sequi culpa
+                    repudiandae quam esse delectus itaque earum. Sit!</p>
+            </div>
+            <div class="facility-col">
+                <img src="./images/facility3.jpg" alt="">
+                <h3>World Class computer Lab</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quae soluta sequi culpa
+                    repudiandae quam esse delectus itaque earum. Sit!</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <!------footer----->
+    <Section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi culpa velit iure accusamus explicabo
+            consequatur ipsam minus, vero quis excepturi dicta numquam,<br> reiciendis eligendi, itaque expedita veniam?
+            Labore voluptatibus alias sit debitis neque sequi!</p>
+        <div class="Icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+        <p>Made with <i class="fa-heart-o"></i>by Easy Tutorials</p>
+
+    </Section>
+
+
+
+
+
+
+
+    <!------Javascript for toggle menu------>
+    <script>
+        var navlinks = document.getElementById("nav-links")
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
